@@ -1,0 +1,37 @@
+.header {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid;
+    z-index: 1;
+    height: 6%;
+    display: flex;
+    background: white;
+    padding: 0 2% 0 2%;
+}
+
+.left_side, .right_side, .middle {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.left_side{
+    width: 30%;
+    background: linear-gradient(85deg, white 45%, rgb(243, 195, 106));
+}
+
+.right_side {
+    width: 30%;
+    justify-content: flex-end;
+    background: linear-gradient(-85deg, white 45%, rgb(243, 195, 106));
+}
+
+.middle {
+    width: 40%;
+    justify-content: center;
+    background: linear-gradient(85deg, rgb(243, 195, 106), white 45%, rgb(243, 195, 106));
+}
+
+.btn {
+    margin: 0 10px 0 10px;
+}
